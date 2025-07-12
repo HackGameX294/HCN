@@ -1,1 +1,276 @@
-v0.0 - nothing lol
+# Hack's Custom Night — Version 0.4.8
+
+## CHANGES
+ - The menus have been completely reworked, all the config menus are completely brand new and polished for your own amusement!
+ - Although not every character's artwork has been made, their functions are well implemented.
+ - We have TONS of options in the game now, all of them should be working. (unless if i somehow missed some lol)
+ - Cameras now have a Glow-In-The-Dark function, they'll glow up if any character is in it.
+ - New INSOMNIAC difficulty has been added, which makes any night severely harder with merciless extra mechanics and tweaks to the overall gameplay!
+
+## KNOWN ISSUES
+- All known issues will be in the bug reports document!
+
+
+
+
+# Hack's Custom Night — Version 0.4.7
+
+### Additions
+- Added Tar Bunny to the roster!
+- Added Twig back to the roster!
+- Replaced Sprinkles with Nick!
+- Replaced Cherry with Avery!
+- Added the Prize Corner purchase sound when paying for Sprinkles.
+- Byte Credits can now be found in the Basement cameras.
+- Added a sfx when any device gets an error.
+- Added a sfx when a device started rebooting.
+- Added a sfx when a device is being rebooted.
+- Added a sfx when a device is finished being rebooted.
+- Added red warning icons around the tablet button when your ventilation is broken.
+- Added red warning icons around the tablet button when your ventilation is broken.
+- The Game Over screen now includes a bar indicator on how far you were close to completing the night.
+- Added a loading screen for the office gameplay to properly load assets!
+- Added a cam refresh transition when using a knockout coin on a character in-camera.
+- Added a cam transition visual when Star or Byeol spawns.
+- The desk fan now adds usage! Balance your power while you can to prevent temperature issues with other characters.
+- Added Sandbox Mode! A variation of Custom Night where you can customize nearly EVERYTHING including tweaking the entire gameplay itself!
+- Included a boiling doors mechanic! Any door closed for long periods of time will increase its own usage consumption.
+- Included a consuming lights mechanic! Using the door lights will use three bars of usage.
+- Included the overheating doors mechanic! Any door closed for too long will make them temporarily open for a set amount of time! Just don't spam click the door buttons!
+- Included two different flashlight types, Rechargeable and Polaroid!
+- Rechargeable has a low battery, but can slowly regenerate overtime.
+- Polaroid deals with characters within a flash, but you only have a limited amount of films.
+- Included the overdrive mechanic! Makes the tablet and flashlight unusable if both side doors are closed, unless you activate the Overdrive button on your desk computer.
+- Included a switch timer mechanic! All cameras are now divided into groups to make the new mechanic more bearable to deal with.
+- Included a secondary mechanic to toggle if you want the speed up button to instantly switch to the next camera.
+- Included a Camera Router mechanic! Camera quality will degrade subtly overtime (more with Switch Timer on,) and even furthermore when switching cameras. Turn the router off periodically and on to restore the camera’s quality.
+- Time Progress Type is a setting where you can change how time works during the night.
+- Main Type: Music Box Timer! Makes time ONLY progress through winding the music box in Party Room 02.
+- Main Type: Tape Recorder! Time progresses by half, but playing the tape recorder in Party Room 03 will make the night go faster!
+- Mod Type: My Wake-Up Music! Makes you required to play the tape to stay awake instead of speeding through the night. (To compensate, the night will go 25% faster.)
+- Mod Type: Silent Tape! Makes the music playing from the Tape Recorder completely quiet!
+- Included the 90’s Hardware mod! Makes your tablet stack usage while resetting devices is slower!
+- The night name during the 12 AM screen now has a gradient effect when you’re in Insomnia Mode.
+## Adjustments
+- Chester’s movement timer has been extended by 10 seconds.
+- Chester’s AI LV movement scaling is higher, meaning he’ll move even faster in higher levels.
+- Chester’s starting timer is extended by 15 seconds.
+- Rosa’s timer has been extended by 5 seconds.
+- Moved the Knockout Coin slightly lower down.
+- Usage consumes a lot more power.
+- Two Custom Night musics are now assigned based on the night value.
+- Rebooting devices will now be slower when using your tablet.
+- In Insomnia Mode, George’s acceleration will now only reset after pushing them back once.
+- I was really dumb to make the “12 AM” text below the night title during the night intro. Now it’s above the night title like it should be.
+- Knockout Coins now have their own cost value based on difficulty.
+- Easy Mode costs 15 coins.
+- Normal Mode costs 30 coins, then increases up to 100 coins based on night value.
+- Insomnia Mode costs 50 coins, then increases up to 150 coins based on night value.
+- Insomnia Mode will no longer increase difficulty immensely more than Normal Mode. Instead, the difficulty will only climb every half hour with the same speed as Normal Mode would.
+- The Menu System is entirely reprogrammed for flexibility and optimization! Saves quite a bit of processing work for the application!
+- Switching to Insomnia Mode will now only be selected via Start button in the Title Menu. You can only switch to Easy or Normal difficulty.
+- Office blackout sequence for TV Head Fooled characters is much smoother.
+## BUG FIXES
+- The Knockout Coin stutters when you turn your view in the office.
+- Using the Knockout Coin on a character will not make them return when restarting the night.
+- The current camera text displays you’re in the first floor regardless of what camera you’re in.
+- Using the Cam Light will add two-usage bars internally.
+- Side Vent light wasn’t consuming power.
+- Night music wasn’t playing during the night.
+- The Cam Hover Indicators shows the cam’s internal name than its display name.
+- Cam transition effect didn’t play when opening the tablet.
+- The static sound effect kept playing throughout the whole night after switching cameras for the first time.
+- You were able to reset any device while viewing the tablet.
+- Pressing “E” during the night will restart the night.
+- Jumpscare intros only appears for only a frame before they get destroyed.
+- Save file never overall save file timer properly.
+
+
+
+
+
+
+
+# Hack's Custom Night — Version 0.4.5 / 0.4.6
+
+### Additions
+- Star now has the monotony mechanic, where she can spawn faster while you’re viewing the tablet.
+- Added a sound effect for character icons sliding.
+- Added Byeol to the roster! She works properly as intended.
+- Added Abby’s jumpscare noise.
+- Added Jumpscare stinger when a jumpscare appears.
+- Added a Hallucination Jumpscare sound effect when it ends.
+- Added a highlighted color for the device buttons when hovered over.
+- The parameters UI in Game Over will now show your last run.
+
+### Adjustments
+- Now all door characters can be dealt within a set amount of seconds while being at the door, instead of waiting for their movement timer to get through.
+- Inferno’s description has been adjusted for more clarification and adjustments.
+- Ace’s sneak attack timer is now lowered from 7 seconds to 5 seconds.
+- Kaun’s AI LV scaling affecting the movement timer is now shortened.
+- Updated George’s mechanic description for more clarification.
+- Included George’s Insomnia Mode description as it works functionally.
+- Zee’s sprite will now become transparent when you hover over her, not requiring the flashlight to be activated anymore.
+- Abby will become more transparent during Zee’s phase.
+- Zee’s movement timer is set from 9 seconds to 12 seconds.
+- Byte Credits now have a set of 8 in every camera with predetermined positions! In addition, collecting any of them will only respawn in 20 seconds. In future builds, only three will spawn in each camera switch, as programming a limited amount in each camera is difficult. 
+- Knockout Coins are now positioned at the top center, below the Byte Credits counter.
+- Saypil now takes 5 more seconds to purchase her plush at 20 AI LV.
+- Emma now takes 5 more seconds to purchase her plush at 20 AI LV.
+- Updated the Plush Hour sound effect to be more distinct with the hour hit sound.
+- Saypil’s plush is now cheaper.
+- All of Emma’s plushies are cheaper.
+- Saypil’s placeholder sprites have been color coded to be more pink to differentiate from Emma.
+
+### Bug Fixes
+- The character buttons do not show up, but they are still functional.
+- Insomnia Mode mechanic descriptions were showing up regardless of any difficulty mode selected.
+- Screen shakes when any character is dealt at the door, even though it’s only for Inferno right now.
+- Star shows up while viewing the cameras.
+- During Ace’s jumpscare intro, her previous sprite (peeking animation) was still present.
+- On-screen assets like Parameters UI, Fade Out, and etc. are now 100% locked into the screen than having single frames of it being off-centered.
+- AI LVs were invisible in the Assignments Menu.
+- Insomnia Mode text in character mechanic description is correctly color-coded.
+- Star’s jumpscare never showed up.
+- Star only breaks the cam tools rather than breaking the ventilation.
+- The Play Audio Cooldown Finished played twice after the Audio cooldown is finished.
+- The Cam Tool button held timer was present.
+- Computer Device buttons had status meters at the right.
+- Saypil’s plush text was present, even though temporarily, it was only for Emma.
+- The office blackout from Chester was invisible.
+- Cam Audio button text was missing.
+- Wind Record button text was missing.
+- [0.4.6 HOTFIX] The Cam Audio button was not present due to a naming mistake that caused it to disappear.
+
+
+
+
+
+# Hack's Custom Night — Version 0.4.4
+
+### Additions
+- Programmed in the rechargeable flashlight! It may not be accessible, but it’s programmed for future features.
+- Added a footstep sound when George goes to the Stairway from Hall 01.
+- Added a footstep sound when George goes to the Blue Hallway from Stairway.
+- George’s Insomnia Mode Mechanic is now implemented properly.
+- Added a sound effect when inserting tokens for Created.
+- Added a sound effect when Created is fully reset.
+- Added a sound effect when Abby resets from the flashlight.
+- Added a Night Start sound effect.
+- Added the Night Menu music composed by Toby.
+- Added a Custom Night music composed by Toby.
+- Added a new Custom Night music composed by carrot113!
+- Added a sound effect when Inferno initializes his rushdown.
+- Changing the Master, BGM, SE, and VA Volume now works by changing it in Audio Settings. However, the settings seem to only apply when you reload the game. This will be fixed in the next update.
+- Added a screenshake when Inferno hits your door.
+- Added a low-pass filter when you’re wearing the TV Head!
+- Added a sound when you instant-set a character’s AI LV in the Night Menu using middle-click!
+- Added a sound when you highlight a character in the Night Menu!
+- Added a sound when you adjust a character’s AI LV in the Night Menu!
+- Added a sound when you adjust a character’s AI LV to 0 in the Night Menu!
+- Added a sound when you adjust a character’s AI LV to 20 in the Night Menu!
+- Temporarily, you can return to the Night Menu using F1, and restart the night using F2.
+
+### Adjustments
+- Flashlight drains MUCH faster when using it.
+- Repositioned the flashlight battery to be more centered.
+- George now takes less time to fend them off.
+- It won’t be noticeable, but some functions of how characters are drawn are optimized to perform a tiny bit more smoothly.
+- The TV Mask toggling now requires you to have your mouse above the button before you’re able to use it after closing your tablet to prevent movement issues.
+- Ange’s closeup timer is adjusted from 2 seconds to 1 second.
+- Inferno’s movement timer is now extended by five more seconds.
+- Inferno’s AI LV scaling is now lowered by 20.
+- Kaun being pushed by the cam light is adjusted from 2 seconds to 1.5 seconds.
+- Ace’s movement timer is now added by 5 seconds.
+- Ace’s AI LV scaling is now lowered by 20%.
+- Ange’s movement timer is now extended by 5 seconds.
+- Joy being at your doorway before you encounter her will now make her advance a stage when the door is closed on her, meaning she’ll be able to move away easily than to keep the door closed longer.
+- Hack’s initial timer AI LV scaling is lowered by 50%.
+- Ange’s AI LV scaling is lowered.
+- Every character now has their own starting timer, meaning some will take longer to move.
+
+### Bug Fixes
+- Flashlight battery icon displays full state when deactivating the flashlight itself.
+- Ace’s sneak sprite disappears at the doorway when the door light is activated.
+- Footsteps sound played before Ace reaches to the doorway.
+- Cam Tool Buttons were not visible upon first opening the tablet.
+- The results screen initially showed “Characters dealt”, which is a misconception on how many times you’ve dealt with a character. Now it’s renamed to “Character dealts”.
+- George’s sprite went to the Art Room after the Stairway, when it should’ve been the Blue Hallway.
+- Created played the cam switch sound upon spawning the Pay Tokens button.
+- Ange played the cam switch sound upon spawning in the office.
+- Sprinkles played the cam switch sound upon spawning in the office.
+- Kaun at the window sprite was not present when he reached there.
+- Crow at the window sprite was not present when he reached there.
+- Kaun’s Dining Area sprite did not show up when he’s there.
+- You were able to adjust character AI LVs during the Assignments Menu.
+- The Pause button no longer crashes, but the pause feature is still very buggy. Please avoid using it whenever possible.
+
+
+
+
+
+
+
+# Hack's Custom Night — Version 0.4.3
+
+### Additions
+- Hallway light background sound has been added.
+- Hallway light activated sound has been added.
+- Hallway light deactivated sound has been added.
+
+### Adjustments
+- Cherry has been temporarily removed due to a lack of visual and function, which is purely by fault. I apologize.
+
+### Bug Fixes
+- George getting into the office will cause a crash.
+- George will still be fended off in the cameras if the current camera is set on them while viewing the office.
+- Zee’s pose wasn’t becoming transparent when you’re using the flashlight on the blobs behind her sprite.
+- Abby’s object was being created EVERY FRAME while she’s activated, causing an increasing performance/lag issue.
+
+
+
+
+# Hack's Custom Night — Version 0.4.2
+### Additions
+- Added vent cameras in the vent system! West, North, East, and Intersection Vent Cams!
+- Added Tablet flip up and down sound effects!
+- Completely replaced the Freddy mask placeholder with a TV Head animation!
+- Added Rosa to the roster!
+- Added Chester to the roster!
+- Added an airhorn sound for Ange. (also a secret one)
+- The game now tells you who ended your run. (placeholder)
+### Adjustments
+- Joy will now prevent herself from moving to any doorway when its lights are on.
+- Chester will now prevent herself from moving to any doorway when its lights are on.
+- Rosa will now prevent herself from moving to any doorway when its lights are on.
+### Bug Fixes
+- Vent Snares were showing up and can be toggled in the camera map while not being in the regular cam system.
+- Joy's doorway poses were showing up even when the door light was off.
+- Zee’s presence sfx was not played when she’s in the office.
+- Zee’s blob sfx being dealt was not played when they’re being fended off.
+- Fish plush (green texture) is temporarily removed.
+- [TEMP] The Knockout Coin’s position is fixed, but the coin in the office is still stuttering. Please excuse it for now.
+
+
+
+
+
+# Hack's Custom Night — Version 0.4.1a
+
+### ADDITIONS
+- Kaun's placeholder assets are now replaced with sketch assets are more clarity.
+- Kaun's mechanic now has a hard mode mechanic!
+- Every character now has a jumpscare noise. It'll use Hack's jumpscare noise for the time being.
+- The "Start Night" button now appears in the Office Overview screen for you to click on.
+- The "Back" button now appears in the Office Overview screen for you to click on.
+- George's poses are now imported into the game, replacing the placeholders being Hack's third Blue Hallway asset.
+
+### ADJUSTMENTS
+- Replaced the Cam Hover sound effect.
+- Assignments Menu's Back Button now works using the mouse.
+- Added Easing to the Score Display in the Night Menu.
+
+### BUG FIXES
+- Temporarily, Emma's plush will be indicated through a text at the center when looking at Emma at the Red Hallway cam.
+- The AI LV shortcuts and Proceed button now properly shows up.
+- The Score Display in the Night Menu is now properly positioned in Assignments.
